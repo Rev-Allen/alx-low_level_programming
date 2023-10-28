@@ -5,12 +5,10 @@
 
 	/**
 	 * check_num - check string there are digit
-	 *
-	 * Description: 'the program checks all the digits'
 	 * @str: array str
+	 *
 	 * Return: Always 0 (Success)
 	 */
-
 	int check_num(char *str)
 	{
 		/*Declaring variables*/
@@ -18,14 +16,11 @@
 
 		count = 0;
 		while (count < strlen(str)) /*count string*/
-
 		{
 			if (!isdigit(str[count])) /*check if str there are digit*/
 			{
 				return (0);
 			}
-
-
 			count++;
 		}
 		return (1);
@@ -34,10 +29,9 @@
 
 	/**
 	 * main - Print the name of the program
-	 *
-	 * Description: 'this prints the program name'
 	 * @argc: Count arguments
 	 * @argv: Arguments
+	 *
 	 * Return: Always 0 (Success)
 	 */
 
